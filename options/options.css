@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.keywords-input-div {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.keywords-input-div input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 5px;
+    outline: none;
+    font-size: 16px;
+}
+
+.keywords-div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.keyword {
+    display: flex;
+    align-items: center;
+    background-color: #007bff;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+.keyword .delete {
+    margin-left: 5px;
+    cursor: pointer;
+}
